@@ -12,12 +12,12 @@
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 data {
-	item: "theme/name"		"Midnight Moonlight";
-	item: "theme/version"	"beta";
-	item: "theme/author"	"Alberto 'Duma' Verdoja";
-	item: "gtk-theme"		"MokshaMoonlight-GTK";
-  item: "icon-theme"		"MokshaMoonlight-Icons";
-	item: "version"			"110";
+	item: "theme/name"    "Midnight Moonlight";
+	item: "theme/version" "beta";
+	item: "theme/author"  "Alberto 'Duma' Verdoja";
+	item: "gtk-theme"     "MokshaMoonlight-GTK";
+  item: "icon-theme"    "MokshaMoonlight-Icons";
+	item: "version"       "110";
 }
 
 /// These stuffs can be changed also with Settings -> Look -> Colors, but
@@ -9021,6 +9021,7 @@ group { name: "e/fileman/toolbar/default/base";
 						size:			 10;
 						min:		1 1;
 						align:			0.5 0.5;
+            ellipsis: -1;
 						text_class: "button";
 					}
 				}
