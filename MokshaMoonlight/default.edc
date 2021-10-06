@@ -1833,6 +1833,12 @@ group { name: "e/pointer/enlightenment/rotate/color";
 					color: 255 255 255 255;
 				}
 			}
+			swallow { "e.background"; clip: "clip";
+				desc { "default";
+					rel2.to: "base";
+				}
+				desc { "hidden"; inherit; hid; }
+			}
 			part { name: "e.swallow.content";
 				type: SWALLOW;
 				clip_to: "clip";
@@ -1840,12 +1846,6 @@ group { name: "e/pointer/enlightenment/rotate/color";
 					rel1.to: "clip";
 					rel2.to: "clip";
 				}
-			}
-			swallow { "e.background"; clip: "clip";
-				desc { "default";
-					rel2.to: "base";
-				}
-				desc { "hidden"; inherit; hid; }
 			}
 			part { name: "e.text.label";
 				type: TEXT;
